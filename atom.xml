@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yu!</title>
+  
+  <subtitle>咸鱼一只</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.watanabeyu.me/"/>
+  <updated>2017-12-06T07:56:39.374Z</updated>
+  <id>http://www.watanabeyu.me/</id>
+  
+  <author>
+    <name>WatanabeYu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="http://www.watanabeyu.me/2017/12/06/hello/"/>
+    <id>http://www.watanabeyu.me/2017/12/06/hello/</id>
+    <published>2017-12-06T05:24:45.000Z</published>
+    <updated>2017-12-06T07:56:39.374Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://www.watanabeyu.me/categories/Diary/"/>
+    
+    
+      <category term="test" scheme="http://www.watanabeyu.me/tags/test/"/>
+    
+  </entry>
+  
+</feed>
