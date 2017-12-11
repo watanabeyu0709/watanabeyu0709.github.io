@@ -86,6 +86,7 @@
 
 
 <meta name="description" content="欢迎各位大佬们">
+<meta name="keywords" content="Hexo, NexT">
 <meta property="og:type" content="website">
 <meta property="og:title" content="夏">
 <meta property="og:url" content="http://www.watanabeyu.me/tags/大树/index.html">
@@ -710,11 +711,12 @@
 const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
 (function(){
   if((typeof(device) != 'undefined') && (device.mobile())){
-    document.getElementById("live2dcanvas").style.width = '75px';
-    document.getElementById("live2dcanvas").style.height = '150px';
+    var trElement = document.getElementById('hexo-helper-live2d');
+    trElement.parentNode.removeChild(trElement);
+    return;
   }else
     if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
-  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/z16.model.json", 0.5);});
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/haru01.model.json", 0.5);});
 })();
 </script>
 
